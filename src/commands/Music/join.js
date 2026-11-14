@@ -7,7 +7,7 @@ export default {
     category: 'Music',
     data: new SlashCommandBuilder()
         .setName('join')
-        .setDescription('Join your voice channel without starting playback'),
+        .setDescription('invite tripple diddy fart to vc'),
 
     async execute(interaction, config, client) {
         const deferred = await deferMusicCommand(interaction);
